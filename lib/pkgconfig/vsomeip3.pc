@@ -1,0 +1,10 @@
+prefix=/home/kpit/Documents/install_folder
+exec_prefix=/home/kpit/Documents/install_folder
+libdir=/home/kpit/Documents/install_folder/lib
+includedir=/home/kpit/Documents/install_folder/include
+
+Name: vsomeip
+Description: New SOME/IP stack, feature complete
+Version: 3.4.10
+Libs: -L${libdir} -lvsomeip3
+Cflags: -I${includedir}
